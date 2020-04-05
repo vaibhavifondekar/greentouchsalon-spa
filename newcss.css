@@ -50,10 +50,11 @@ ul li.active a{
 	right:50%;
 	transform:translate(50%,-50);
 	color:black;
+	
 }
 .title h1{
 	color:black;
-	font-size:50px;
+	font-size:70px;
 }
 .galleryhome h1{
 	font-size:80px;
@@ -109,5 +110,34 @@ div.a{
 	position:right-side;
 	
 }
+.footer_container{
+	width: 1320px;
+	height: 200px;
+	border-top: solid 1px black;
+	display: flex;
+	margin: 0 10px 40px 0;
+}
+
+.footer_column{
+	width: 500px;
+	height: 250px;
+	float: left;
+	background-color: black;
+}
+
+.footer_titles{
+	text-transform: uppercase;
+	color: #bf9515;
+	font-size: 17px;
+	font-weight: 400;
+	padding: 30px 0;
+	font-family: 'Open Sans';
+}
+.map{
+	width: 100%;
+	height: 110px;
+}
+
+ 
 
 
